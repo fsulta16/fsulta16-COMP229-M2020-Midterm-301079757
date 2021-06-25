@@ -36,17 +36,7 @@ router.post('/add', (req, res, next) => {
     "Author": req.body.author,
     "Genre": req.body.genre
   });
-  book.create(newBook, (err,book)=>{
-    if(err)
-    {
-      console.log(err);
-      res.end(err);
-    }
-    else
-    {
-      res.redirect('/books');
-    }
-  })
+  
 });
 
 // GET the Book Details page in order to edit an existing Book
