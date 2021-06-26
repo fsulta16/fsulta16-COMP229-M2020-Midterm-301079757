@@ -1,7 +1,3 @@
-/*COMP229 - Midterm
-  app.js
-  June 25, 2021
-  Farishta Sultani*/ 
 // moddules for node and express
 let createError = require('http-errors');
 let express = require('express');

@@ -1,8 +1,8 @@
 /*COMP229 - Midterm
-  index.js
+  index..js
   June 25, 2021
   Farishta Sultani*/ 
-
+  
 // modules required for routing
 let express = require('express');
 let router = express.Router();
